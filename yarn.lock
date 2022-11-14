@@ -8884,6 +8884,19 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@backstage/repo-tools@workspace:packages/repo-tools":
+  version: 0.0.0-use.local
+  resolution: "@backstage/repo-tools@workspace:packages/repo-tools"
+  dependencies:
+    "@backstage/errors": "workspace:^"
+    chalk: ^4.0.0
+    commander: ^9.1.0
+    ts-node: ^10.0.0
+  bin:
+    backstage-repo-tools: bin/backstage-repo-tools
+  languageName: unknown
+  linkType: soft
+
 "@backstage/test-utils@workspace:^, @backstage/test-utils@workspace:packages/test-utils":
   version: 0.0.0-use.local
   resolution: "@backstage/test-utils@workspace:packages/test-utils"
